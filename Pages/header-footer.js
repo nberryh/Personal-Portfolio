@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
     //Load the footer
     const footerContainer = document.getElementById('footer');
     const footerRequest = new XMLHttpRequest();
-    footRequest.open('GET', 'foot.html', true);
+    footerRequest.open('GET', 'foot.html', true);
     footerRequest.onreadystatechange = function() {
         if (footerRequest.readyState === 4 && footerRequest.status === 200) {
             footerContainer.innerHTML = footerRequest.responseText;
