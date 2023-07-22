@@ -64,6 +64,43 @@ h4 {
     text-align: center;
     font-size: large;
 }
+
+#Family {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 10%;
+}
+
+.Kids {
+    display: block;
+    margin: auto;
+    border-style: solid;
+    border-color: #2C2FA5;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.Kids img {
+        width: 300;
+        height: 200px;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding: 15%;
+}
+
+.Project {
+    text-align: center;
+}
+
+.grid-item {
+    border: 3px solid black;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 30px;
+}
 /** 
 Styles for footer
 */
@@ -71,10 +108,47 @@ Styles for footer
 #footBar li {
     text-align: center;
     text-transform: uppercase;
+    list-style-type: none;
 }
 
 #footBar a {
-    display:list-item;
+    display: list-item;
     text-align: center;
     font-display: none;
+}
+
+.app-header {
+    text-align: center;
+    text-decoration: solid;
+}
+
+#bucket-list {
+    display: grid;
+    grid-template-columns: 35% 55%;
+    padding: 15%;
+}
+.listOne ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+.listOne h2 {
+    text-align: left;
+}
+
+.listTwo ul {
+    text-align: right;
+    list-style-type: none;
+}
+
+.listTwo h2 {
+    text-align: right;
+}
+
+#resume {
+    text-align: center;
+}
+
+#resume ul {
+    list-style-type: none;
 }
