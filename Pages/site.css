@@ -47,12 +47,34 @@ h1 {
     word-spacing: .2em;
 }
 
+h2 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+.landingWrite {
+    text-align: center;
+    font-size: large;
+}
+
+.aboutPar {
+    text-align: center;
+    font-size: large;
+}
 /** 
 Styles for footer
 */
 
-#footerBar {
+#footBar li {
     text-align: center;
     text-transform: uppercase;
-    text-decoration: none;
+}
+
+#footBar a {
+    display:list-item;
+    text-align: center;
+    font-display: none;
 }
