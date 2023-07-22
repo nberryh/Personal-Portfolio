@@ -15,14 +15,24 @@ html, body  {
     border: 15px solid #90ffc5;
 }
 
-/** 
-Styles for header
-*/
-
-#header {
+#headerBar {
+    background-color: aqua;
     text-align: center;
 }
 
+#headerBar li ul {
+    width: 100%;
+    margin-bottom: 50px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#headerBar li {
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    font-display: none;
+}
 /** 
 Styles for h1
 */
@@ -41,9 +51,8 @@ h1 {
 Styles for footer
 */
 
-#footer {
-    font-family: 'Quicksand', sans-serif, "Times New Roman", 'Spectral', serif;
-    font-weight: 400;
+#footerBar {
     text-align: center;
     text-transform: uppercase;
+    text-decoration: none;
 }
