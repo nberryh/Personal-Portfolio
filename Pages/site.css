@@ -1,7 +1,7 @@
 /**
     Title: site.css
     Author: Nolan Berryhill
-    Date: 12 July 2023
+    Date: 23 July 2023
     Description: Theme.css files for Personal Portfolio
 */
 
@@ -14,6 +14,10 @@ html, body  {
     background-color:  #2CA565;
     border: 15px solid #90ffc5;
 }
+
+/** 
+Styles for header and its lists
+*/
 
 #headerBar {
     background-color: aqua;
@@ -31,10 +35,9 @@ html, body  {
     display: inline-block;
     text-align: center;
     padding: 15px;
-    font-display: none;
 }
 /** 
-Styles for h1
+Styles for h1, h2, h4
 */
 
 h1 {    
@@ -55,15 +58,27 @@ h4 {
     text-align: center;
 }
 
+/** 
+Styles for landing write
+*/
+
 .landingWrite {
     text-align: center;
     font-size: large;
 }
 
+/** 
+Styles for about par
+*/
+
 .aboutPar {
     text-align: center;
     font-size: large;
 }
+
+/** 
+Styles for family and kids section
+*/
 
 #Family {
     display: grid;
@@ -81,9 +96,13 @@ h4 {
 }
 
 .Kids img {
-        width: 300;
+        width: 300px;
         height: 200px;
 }
+
+/** 
+Styles for grids
+*/
 
 #grid-container {
     display: grid;
@@ -102,7 +121,7 @@ h4 {
     border-radius: 30px;
 }
 /** 
-Styles for footer
+Styles for footer list
 */
 
 #footBar li {
@@ -114,13 +133,20 @@ Styles for footer
 #footBar a {
     display: list-item;
     text-align: center;
-    font-display: none;
 }
+
+/** 
+Styles for app header
+*/
 
 .app-header {
     text-align: center;
     text-decoration: solid;
 }
+
+/** 
+Styles for bucket lists
+*/
 
 #bucket-list {
     display: grid;
@@ -144,6 +170,10 @@ Styles for footer
 .listTwo h2 {
     text-align: right;
 }
+
+/** 
+Styles for resume
+*/
 
 #resume {
     text-align: center;

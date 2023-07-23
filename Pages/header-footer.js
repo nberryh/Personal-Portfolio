@@ -2,7 +2,7 @@
 ===========================================
 ; Title:  header-footer.js
 ; Author: Nolan Berryhill
-; Date:   12 July 2023
+; Date:   23 July 2023
 ; Description: Applying strings to list in html
 ;==========================================
 */
