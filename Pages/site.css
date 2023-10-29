@@ -126,6 +126,13 @@ Styles for grids
     height: 200px;
 }
 
+.videos {
+    border: 3px solid black;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 30px;
+}
+
 /** 
 Styles for footer list
 */
